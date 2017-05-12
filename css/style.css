@@ -1,0 +1,355 @@
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body
+	{
+		background-color: black !important;
+	}
+
+	body,input,textarea,select
+	{
+		font-family: 'Raleway', sans-serif !important;
+		font-size: 11pt;
+		line-height: 1.75em;
+	}
+
+	/* Don't forget to set this to something that matches the design */
+	a
+	{
+
+		text-decoration:none !important;
+	}
+	
+	a>*:hover
+	{
+
+		text-decoration:none !important;
+	}
+
+
+	.navigation >*
+	{
+		position:fixed;
+	}
+	
+	ul.dropdown-menu li a
+	{
+		color:black !important;
+	}
+	
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		background: url(images/img01.jpg) repeat-x left top;
+	}
+
+	#header
+	{
+		height: 70px;
+		width:100%;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	div #logo
+	{
+		top:-23px;
+	}
+	
+	#logo a
+	{
+		font-size: 0.8em;
+		font-weight: 600;
+		color: #FFF;
+		text-decoration:none;
+	}
+	
+	#mode
+	{
+		font-size:0.4em;
+	}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+@media (min-width: 768px)
+{
+	#nav
+	{
+		top: 1.5em;
+	}
+}
+@media (max-width: 767px)
+{
+	#nav
+	{
+		top: 0.7em;
+	}
+}
+
+@media (min-width: 768px)
+{
+	#navadmin
+	{
+		top: 1em;
+	}
+}
+@media (max-width: 767px)
+{
+	#navadmin
+	{
+		top: 0;
+	}
+}
+
+div#navadmin
+{
+	padding:0 !important;
+}
+
+	#nav >div > a
+	{
+		display: block;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-align:center;
+		font-size: 0.90em;
+		color: #FFF;
+		line-height:2;
+		font-weight:600;
+	}
+
+	#nav div.active a
+	{
+		background: #6e090b;
+		border-radius: 25px;
+		color: #FFF;
+	}
+	
+	#nav div.active
+	{
+		padding:0 !important;
+	}
+			
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		padding:0;
+		top:70px;
+	}
+	
+	#banner img
+	{
+		width:100%;
+	}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		background: #fff;
+		margin-right:0;
+		margin-left:0;
+		margin-top:70px;
+	}
+	
+	#main h2
+	{
+		text-align:center;
+	}
+	
+	#mainadmin
+	{
+		background: #fff;
+		margin-right:0;		
+		margin-left:0;			
+		margin-top:70px;
+	}
+	
+	#mainadmin div
+	{
+		padding-right:0;
+		padding-left:0;
+	}
+	
+	#infosR
+	{
+		z-index:100;
+	}
+	
+	#photo
+	{
+		text-align:center;
+	}
+	
+/*********************************************************************************/
+/* correction et recette                                                                   */
+/*********************************************************************************/
+	
+	#correction
+	{
+		background: #fff;
+		margin-right:0;
+		padding-left:15px;
+	}
+	
+	#correction.row
+	{
+		margin-left:0;
+	}	
+	
+	#correction header h2
+	{
+		font-size: 1.6em;
+	}
+	
+	#correction h1
+	{
+		text-align:center;
+	}
+	
+	h4
+	{
+		margin-top:0 !important;
+	}
+
+	.recette
+	{
+		padding:0 !important;
+	}
+	
+	.recette a, .recetteadmin 
+	{
+		color:black;
+	}
+	
+	.recette a:hover
+	{
+		color:red !important;
+	}
+	
+	.recette img
+	{
+		width:inherit !important;
+	}
+	
+	.recetteadmin img
+	{
+		width:inherit;
+	}
+	
+	.recetteadmin
+	{
+		padding:10px !important;
+	}
+	
+	.ingredient h3
+	{
+		text-align:left;
+		text-decoration: underline;
+	}
+	
+	.ingredientsAdmin
+	{
+		padding:5px;
+		
+	}
+	
+	.typesAdmin
+	{
+		padding:5px;
+		border:1px solid red;
+		border-radius:5px;
+	}
+
+	#recetteC header h2
+	{
+		text-align:center;
+		font-size:3em;
+	}
+	
+	#recetteC header>h3
+	{
+		text-align:center;
+		font-size:2em;
+	}
+	
+	#recetteC p
+	{
+		text-align:center;
+		font-size:1.5em;
+	}
+	
+	#recetteC img
+	{
+		width:100%;
+	}
+	
+	
+	
+	div.dropdown
+	{
+		padding-left:0 !important;
+	}
+	
+	.glyphicon.glyphicon-edit
+	{
+		color:blue;
+	}
+	
+	.glyphicon.glyphicon-trash
+	{
+		color:red;
+	}
+	
+	.divNoteRO
+	{
+		text-align:center;
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+	
+	#copyright
+	{
+		color:white;
+		text-align: center;
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color:white;
+	}
+	
+
+/*********************************************************************************/
+/* lequipe                                                                     */
+/*********************************************************************************/
+
+img.visuel_equipe{
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border: 5px solid #2D3C42;
+	width:100%
+}
+
+.equipe
+{
+	text-align:center;
+}
+	

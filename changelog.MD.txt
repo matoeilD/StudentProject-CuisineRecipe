@@ -1,0 +1,14 @@
+
+
+- le site est développé avec les langages HTML5/CSS3+Bootstrap, jQuery, PHP5/MySql et utilise les plugins Summernote (pour écrire les recettes avec une mise en page) et jQuery-Bar-Rating (pour les notes des recettes avec étoiles)
+
+- utilisation de PHP Orienté Objet avec PDO (PHP Data Objects, pour la connexion à la base de données et les requetes...)
+
+- en ce qui concerne l'inscription/connexion  : si un visiteur entre un pseudo et un pass et qu'il n'est pas déjà inscrit alors il crée son inscription en tant qu'utilisateur et se connecte, sinon il se connecte normalement.
+
+L'utilisateur peut ajouter des recettes et même les modifier/supprimer mais que les siennes, mais ne pourra par contre pas ajouter/modifier/supprimer des ingrédients ou types d'ingrédients, ni gérer leurs commentaires.
+L'admin peut modif/suppr toutes les recettes qu'il veut même celles d'utilisateurs.
+
+Concernant la connexion en admin dans le site, voici mon accès : 
+id = max / pass= max 
+
